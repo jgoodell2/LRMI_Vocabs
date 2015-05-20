@@ -12,28 +12,35 @@
 
 <http://purl.org/dcx/lrmi-vocabs/alignmentType/AT001> a skos:Concept ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/alignmentType/> ;
-    skos:prefLabel "assesses"@en .
+    skos:prefLabel "assesses"@en ;
+    skos:definition "The learning resource may be used to assess the destination of the association." .
 
 <http://purl.org/dcx/lrmi-vocabs/alignmentType/AT002> a skos:Concept ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/alignmentType/> ;
-    skos:prefLabel "teaches"@en .
+    skos:prefLabel "teaches"@en ;
+    skos:definition "The learning resource may be used to teach the competency at the destination of the association." .
 
 <http://purl.org/dcx/lrmi-vocabs/alignmentType/AT003> a skos:Concept ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/alignmentType/> ;
-    skos:prefLabel "requires"@en .
+    skos:prefLabel "requires"@en ;
+    skos:definition "The learning resource requires the destination of the association to support its function, delivery, or coherence." .
 
 <http://purl.org/dcx/lrmi-vocabs/alignmentType/AT004> a skos:Concept ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/alignmentType/> ;
-    skos:prefLabel "text complexity"@en .
+    skos:prefLabel "text complexity"@en ;
+    skos:definition "The destination of the association defines a level or range, measuring the ease in which text can be read and understood, for text used within the learning resource." .
 
 <http://purl.org/dcx/lrmi-vocabs/alignmentType/AT005> a skos:Concept ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/alignmentType/> ;
-    skos:prefLabel "reading level"@en .
+    skos:prefLabel "reading level"@en ;
+    skos:definition "The destination of the association defines a level or range of ability expected for a person using the learning resource." .
 
 <http://purl.org/dcx/lrmi-vocabs/alignmentType/AT006> a skos:Concept ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/alignmentType/> ;
-    skos:prefLabel "educational subject"@en .
+    skos:prefLabel "educational subject"@en ;
+    skos:definition "The destination of the association defines a topic or subject from a controlled vocabulary." .
 
 <http://purl.org/dcx/lrmi-vocabs/alignmentType/AT007> a skos:Concept ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/alignmentType/> ;
-    skos:prefLabel "educational level"@en .
+    skos:prefLabel "educational level"@en ;
+    skos:definition "The destination of the association defines an education level from a controlled vocabulary." .
